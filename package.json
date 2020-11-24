@@ -1,0 +1,27 @@
+{
+  "name": "Node-Simple-Jwt",
+  "version": "1.0.0",
+  "description": "node-simple-jwt",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triusdeil/node-simple-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triusdeil/node-simple-jwt/issues"
+  },
+  "homepage": "https://github.com/triusdeil/node-simple-jwt#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0"
+  }
+}
