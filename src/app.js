@@ -5,5 +5,6 @@ const app = express()
 app.use(express.json())
 //enviar datos de un formulario html
 app.use(express.urlencoded({extended: false}))
-
+//importando 
+app.use(require('./controllers/authController'))
 module.exports = app;
